@@ -1,0 +1,6 @@
+services:
+  nginx_test:
+    image: rautrajess01/simple-webpage:latest
+    container_name: nginx_test
+    ports:
+      - "5000:80"
